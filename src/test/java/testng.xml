@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="ZestMoneyAutomation">
+  <test name="FacebookPostStatus" >
+  
+  <parameter name="userName" value="arushisingh41@gmail.com"/>
+  <parameter name="password" value="harekrishna"/>
+    <classes>
+       <class name="com.zm.test.FacebookPostTest" />
+    </classes>
+  </test>
+
+</suite>

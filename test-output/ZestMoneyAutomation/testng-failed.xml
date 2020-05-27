@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ZestMoneyAutomation]">
+  <test name="FacebookPostStatus(failed)">
+    <parameter name="password" value="harekrishna"/>
+    <parameter name="userName" value="arushisingh41@gmail.com"/>
+    <classes>
+      <class name="com.zm.test.FacebookPostTest">
+        <methods>
+          <include name="FacebookPost" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.zm.test.FacebookPostTest -->
+    </classes>
+  </test> <!-- FacebookPostStatus(failed) -->
+</suite> <!-- Failed suite [ZestMoneyAutomation] -->
