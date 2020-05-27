@@ -4,8 +4,8 @@
 <suite name="ZestMoneyAutomation">
   <test name="FacebookPostStatus" >
   
-  <parameter name="userName" value="arushisingh41@gmail.com"/>
-  <parameter name="password" value="harekrishna"/>
+  <parameter name="userName" value="abc123@gmail.com"/>
+  <parameter name="password" value="helloworld123"/>
     <classes>
        <class name="com.zm.test.FacebookPostTest" />
     </classes>
